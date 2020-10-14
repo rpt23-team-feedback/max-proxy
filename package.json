@@ -1,0 +1,40 @@
+{
+  "name": "max-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "server-dev": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "test": "jest --detectOpenHandles --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gektin/max-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gektin/max-proxy/issues"
+  },
+  "homepage": "https://github.com/gektin/max-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.5.2",
+    "nodemon": "^2.0.5",
+    "supertest": "^5.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
