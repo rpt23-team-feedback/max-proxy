@@ -9,6 +9,10 @@ app.use(express.urlencoded({
   extended: true,
 }));
 app.use(express.static(__dirname + '/../client/'));
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
 
 
 app.listen(port, () => {
